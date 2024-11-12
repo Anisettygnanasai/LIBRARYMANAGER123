@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library App</title>
+</head>
+<body >
+  <h1><b><u>Library Management</u></b></h1>
+  
+  <!-- Signup Section -->
+  <h3>Signup</h3>
+  <input type="text" id="signupEmail" placeholder="Email">
+  <input type="password" id="signupPassword" placeholder="Password">
+  <button onclick="signup()">Sign Up</button>
+
+  <!-- Signin Section -->
+  <h3>Signin</h3>
+  <input type="text" id="signinEmail" placeholder="Email">
+  <input type="password" id="signinPassword" placeholder="Password">
+  <button onclick="signin()">Sign In</button>
+
+  <!-- Add Book Section -->
+  <h3>Add Book</h3>
+  <input type="text" id="bookName" placeholder="Book Name">
+  <input type="number" id="bookPrice" placeholder="Book Price">
+  <button onclick="addBook()">Add Book</button>
+
+  <!-- Take Book Section -->
+  <h3>Take Book</h3>
+  <input type="text" id="takeBookName" placeholder="Book Name">
+  <button onclick="takeBook()">Take Book</button>
+
+  <!-- Return Book Section -->
+  <h3>Return Book</h3>
+  <input type="text" id="returnBookName" placeholder="Book Name">
+  <button onclick="returnBook()">Return Book</button>
+
+  <!-- Delete Book Section -->
+  <h3>Delete Book</h3>
+  <input type="text" id="deleteBookName" placeholder="Book Name">
+  <button onclick="deleteBook()">Delete Book</button>
+
+  <!-- Show All Books -->
+  <h3>Show All Books</h3>
+  <button onclick="showAllBooks()">Show All Books</button>
+  <pre id="bookList"></pre>
+
+  <div id="books-container">
+   
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

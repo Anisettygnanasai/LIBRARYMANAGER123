@@ -1,0 +1,24 @@
+/* CSS */
+#bookList {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.book-item {
+    font-size: 1.5em; /* Increase font size */
+    color: #b7b91f; /* Change color */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add space between items */
+}
+body {
+    background-image: url('https://img.freepik.com/free-photo/product-presentation-wooden-table-with-background-empty-bookshelf-library_172251-444.jpg?size=626&ext=jpg');
+    background-size: cover;       /* Stretch to cover full viewport */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat */
+  }
+  h3{
+      color: rgb(44, 0, 0);
+  }
+  h1{
+      color: rgba(17, 0, 1, 0.952);
+  }
